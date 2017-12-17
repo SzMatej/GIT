@@ -23,7 +23,7 @@ typedef struct zaznam
 FILE *open()
 {
 	FILE *fr;
-	int i = 0;
+	int x = 0;
 
 	if ((fr = fopen("auta.TXT", "r")) == NULL)
 		printf("Zaznamy neboli nacitane \n");
